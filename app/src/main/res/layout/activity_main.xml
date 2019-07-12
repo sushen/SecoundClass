@@ -18,6 +18,7 @@
         android:weightSum="4">
 
      <TextView
+        android:id="@+id/tvNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcluter"
@@ -34,6 +35,7 @@
         android:weightSum="4">
 
         <Button
+            android:id="@+id/btn1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -41,6 +43,7 @@
             android:textSize="@dimen/text">
         </Button>
         <Button
+            android:id="@+id/btn2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -48,6 +51,7 @@
             android:textSize="@dimen/text">
         </Button>
         <Button
+            android:id="@+id/btn3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
