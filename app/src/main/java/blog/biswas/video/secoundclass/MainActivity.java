@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity  {
 
     }
     public void setText(View view){
-        tvNumber.setText(view.getTag().toString());
+        tvNumber.setText(tvNumber.getText().toString() + view.getTag().toString());
     }
 
 }
